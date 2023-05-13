@@ -13,6 +13,27 @@ Pendiente = estado inicial, no cumplida o rechazada
 Cumplida = significa que la operacion se complet satisfactoriamente
 Rechazada = significaque la operacion fallo 
 
+Fetch API 
+La API Fetch proporciona una interfaz JavaScript para acceder y manipular partes del canal HTTP, tales como peticiones y respuestas.
+
+En js al importar se hace de la siguiente manera
+
+    <script type ="module" src="../controllers/client.controller.js">
+Muy importante el tpye = "module"
+
+
+EVENT LOOP O Bucle de Eventos 
+En informática, el bucle de eventos es una construcción de programación o patrón de diseño que espera y envía eventos o mensajes en un 
+programa. El ciclo de eventos funciona haciendo una solicitud a algún "proveedor de eventos" interno o externo, luego llama al controlador 
+de eventos relevante
+
+En el registrar cliente se agrego un script para poder generar id diferentes 
+uuid.v4()
+Y se agrego asi 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
 Utilizando promise podemos organizar nuestro código de forma estructural facilitando su lectura y mantenimiento.
 
 Después de estudiar sobre JavaScript runtime, María decidió hacer algunos ejercicios para fijar su aprendizaje. Ella encontró el siguiente código:
